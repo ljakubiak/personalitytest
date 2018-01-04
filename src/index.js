@@ -34,29 +34,29 @@ const QUESTION_INTROS = [
   "I agree."
 ];
 const UNDECISIVE_RESPONSES = [
-  "<say-as interpret-as='interjection'>Honk</say-as>. I'll just choose for you.",
-  "<say-as interpret-as='interjection'>Nanu Nanu</say-as>. I picked an answer for you.",
-  "<say-as interpret-as='interjection'>Uh oh</say-as>... well nothing I can do about that.",
-  "<say-as interpret-as='interjection'>Aha</say-as>. We will just move on then.",
-  "<say-as interpret-as='interjection'>Aw man</say-as>. How about this question?",
+  "Alright. I'll just choose for you.",
+  "I picked an answer for you.",
+  "Ok, I'll guess on that one.",
+  "We'll just move on then.",
+  "How about this question?",
 ];
-const RESULT_MESSAGE = "Here comes the big reveal! You are "; // the name of the result is inserted here.
-const PLAY_AGAIN_REQUEST = "That was it. Do you want to play again?";
+const RESULT_MESSAGE = "This is it, the big reveal! You are a"; // the name of the result is inserted here.
+const PLAY_AGAIN_REQUEST = "That's it. Do you want to play again?";
 
 const animalList = {
   starfish: {
-    name: "a red-knobbed starfish",
-    display_name: "Red-Knobbed Starfish",
-    audio_message: "Starfish are amazing and can regrow their own limbs.",
-    description: "Red-knobbed starfish are known for being the fashionistas of the salt water world. They always know how to look good in any circumstance. You might enjoy hanging around the edge of the pool and keeping an eye on everyone.",
+    name: "a Fox",
+    display_name: "Fox",
+    audio_message: "You're a quick thinker and are adaptable. You're Responsive and sometimes cunning, it's great to be a fox when you're facing tricky situations.",
+    description: "Foxes are known for being tricksters, however as a spirit animal, they can be called upon to solve problems with their quick thinking and creative spirit. Foxes are excellent teachers and mentors, providing guidance on swiftly finding your way around obstacles.",
     img: {
       smallImageUrl: "https://coach-courses-us.s3.amazonaws.com/public/courses/voice/Example%20images%20skill%203/Red-knobbed.starfish.720.jpeg",
       largeImageUrl: "https://coach-courses-us.s3.amazonaws.com/public/courses/voice/Example%20images%20skill%203/Red-knobbed.starfish.1200.jpg"
     }
   },
   rustmite: {
-    name: "a rust mite",
-    display_name: "Rust Mite",
+    name: "an Owl",
+    display_name: "Owl",
     audio_message: "You are nearly invisible to the naked eye, but you aren't to be underestimated.",
     description: "Dear old Aceria anthocoptes. Small but mighty, you love hanging around outdoors and have an unnatural affinity for thistles. Don't let anyone hold you back - while people don't notice you at first, you can have a big impact on the things around you.",
     img: {
@@ -65,8 +65,8 @@ const animalList = {
     }
   },
   macaw: {
-    name: "a macaw",
-    display_name: "Hyacinth Macaw",
+    name: "a Wolf",
+    display_name: "Wolf",
     audio_message: "Macaws are smart and fabulous.",
     description: "Your striking appearance is the talk of every party. You are always the most colorfully dressed one around. You're also one smart cookie - you were using tools to make your tasks easier before it was cool.",
     img: {
@@ -75,8 +75,8 @@ const animalList = {
     }
   },
   goat: {
-    name: "a goat",
-    display_name: "Good Old Goat",
+    name: "a Bear",
+    display_name: "Bear",
     audio_message: "Baaa! You are a goat.",
     description: "Goats are some of the most amazing animals on Earth. Constantly underestimated, they are nearly as impervious to other peoples' opinions as honey badgers. You are quite handy to have around, as you're always happy to take care of leftovers at any party.",
     img: {
@@ -85,8 +85,8 @@ const animalList = {
     }
   },
   toad: {
-    name: "a toad",
-    display_name: "Toad",
+    name: "a Hawk",
+    display_name: "Hawk",
     audio_message: "You dig relaxing and hanging around in the sunshine.",
     description: "You are athletic and cool, the apple of everyone's eye. You really know how to take it easy and like to spend lots of time basking in the sun and enjoying the great outdoors. When you want to, you can be quite fast and nimble. You're always the first pick for team sports.",
     img: {
@@ -100,51 +100,51 @@ const questions = [
   {
     question: "Do you like spending time socializing with others?",
     points: {
-      starfish: 4,
-      rustmite: 0,
-      macaw: 5,
-      goat: 3,
-      toad: 1
+      Fox: ,
+      Owl: ,
+      Wolf: ,
+      Bear: ,
+      Hawk: 
     }
   },
   {
     question: "Do you enjoy sunbathing?",
     points: {
-      starfish: 4,
-      rustmite: 1,
-      macaw: 2,
-      goat: 3,
-      toad: 5
+      Fox: ,
+      Owl: ,
+      Wolf: ,
+      Bear: ,
+      Hawk: 
     }
   },
   {
     question: "Do you enjoy reading a good book more than going out to a party?",
     points: {
-      starfish: 0,
-      rustmite: 5,
-      macaw: 1,
-      goat: 3,
-      toad: 4
+      Fox: ,
+      Owl: ,
+      Wolf: ,
+      Bear: ,
+      Hawk: 
     }
   },
   {
     question: "Do you like doing sports?",
     points: {
-      starfish: 2,
-      rustmite: 3,
-      macaw: 4,
-      goat: 4,
-      toad: 5
+      Fox: ,
+      Owl: ,
+      Wolf: ,
+      Bear: ,
+      Hawk: 
     }
   },
   {
     question: "Do you prefer vacationing in the forest instead of on the beach?",
     points: {
-      starfish: 0,
-      rustmite: 5,
-      macaw: 3,
-      goat: 4,
-      toad: 5
+      Fox: ,
+      Owl: ,
+      Wolf: ,
+      Bear: ,
+      Hawk: 
     }
   }
 ];
