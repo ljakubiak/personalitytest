@@ -17,7 +17,7 @@ const MISUNDERSTOOD_INSTRUCTIONS_ANSWER = "Please answer with either yes or no."
 const WELCOME_MESSAGE = "Hi! I can tell you your spirit animal. All you have to do is answer five simple yes or no questions. Are you ready to start?";
 const INITIAL_QUESTION_INTROS = [
   "Great! Let's start!",
-  "Ok let's begin.
+  "Ok let's begin.",
   "<say-as interpret-as='interjection'>Alrighty</say-as>! Here comes the first question!",
   "Ok let's go. <say-as interpret-as='interjection'>Ahem</say-as>.",
   "<say-as interpret-as='interjection'>Let's go</say-as>."
