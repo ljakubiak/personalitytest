@@ -44,54 +44,54 @@ const RESULT_MESSAGE = "This is it, the big reveal! You are a"; // the name of t
 const PLAY_AGAIN_REQUEST = "That's it. Do you want to play again?";
 
 const animalList = {
-  starfish: {
+  fox: {
     name: "a Fox",
     display_name: "Fox",
     audio_message: "You're a quick thinker and are adaptable. You're Responsive and sometimes cunning, it's great to be a fox when you're facing tricky situations.",
     description: "Foxes are known for being tricksters, however as a spirit animal, they can be called upon to solve problems with their quick thinking and creative spirit. Foxes are excellent teachers and mentors, providing guidance on swiftly finding your way around obstacles.",
     img: {
-      smallImageUrl: "https://coach-courses-us.s3.amazonaws.com/public/courses/voice/Example%20images%20skill%203/Red-knobbed.starfish.720.jpeg",
-      largeImageUrl: "https://coach-courses-us.s3.amazonaws.com/public/courses/voice/Example%20images%20skill%203/Red-knobbed.starfish.1200.jpg"
+      smallImageUrl: "https://image.ibb.co/c4hSHG/Foxsmall.png",
+      largeImageUrl: "https://image.ibb.co/iq9UWb/Foxlarge.png"
     }
   },
-  rustmite: {
+  owl: {
     name: "an Owl",
     display_name: "Owl",
     audio_message: "You are nearly invisible to the naked eye, but you aren't to be underestimated.",
     description: "Dear old Aceria anthocoptes. Small but mighty, you love hanging around outdoors and have an unnatural affinity for thistles. Don't let anyone hold you back - while people don't notice you at first, you can have a big impact on the things around you.",
     img: {
-      smallImageUrl: "https://coach-courses-us.s3.amazonaws.com/public/courses/voice/Example%20images%20skill%203/Aceria_anthocoptes.720.jpeg",
-      largeImageUrl: "https://coach-courses-us.s3.amazonaws.com/public/courses/voice/Example%20images%20skill%203/Aceria_anthocoptes.1200.jpg"
+      smallImageUrl: "https://image.ibb.co/iZ8Orb/Owlsmall.png",
+      largeImageUrl: "https://image.ibb.co/fKvQ4w/Owllarge.png"
     }
   },
-  macaw: {
+  wolf: {
     name: "a Wolf",
     display_name: "Wolf",
     audio_message: "Macaws are smart and fabulous.",
     description: "Your striking appearance is the talk of every party. You are always the most colorfully dressed one around. You're also one smart cookie - you were using tools to make your tasks easier before it was cool.",
     img: {
-      smallImageUrl: "https://coach-courses-us.s3.amazonaws.com/public/courses/voice/Example%20images%20skill%203/Anodorhynchus_hyacinthinus.720.jpg",
-      largeImageUrl: "https://coach-courses-us.s3.amazonaws.com/public/courses/voice/Example%20images%20skill%203/Anodorhynchus_hyacinthinus.1200.jpg"
+      smallImageUrl: "https://image.ibb.co/grVQMb/Wolfsmall.png",
+      largeImageUrl: "https://image.ibb.co/dCg9Wb/Wolflarge.png"
     }
   },
-  goat: {
+  bear: {
     name: "a Bear",
     display_name: "Bear",
     audio_message: "Baaa! You are a goat.",
     description: "Goats are some of the most amazing animals on Earth. Constantly underestimated, they are nearly as impervious to other peoples' opinions as honey badgers. You are quite handy to have around, as you're always happy to take care of leftovers at any party.",
     img: {
-      smallImageUrl: "https://coach-courses-us.s3.amazonaws.com/public/courses/voice/Example%20images%20skill%203/Male_goat.720.jpeg",
-      largeImageUrl: "https://coach-courses-us.s3.amazonaws.com/public/courses/voice/Example%20images%20skill%203/Male_goat.1200.jpg"
+      smallImageUrl: "https://image.ibb.co/dvPJPw/Bearsmall.png",
+      largeImageUrl: "https://image.ibb.co/guVgcG/Bearlarge.png"
     }
   },
-  toad: {
+  hawk: {
     name: "a Hawk",
     display_name: "Hawk",
     audio_message: "You dig relaxing and hanging around in the sunshine.",
     description: "You are athletic and cool, the apple of everyone's eye. You really know how to take it easy and like to spend lots of time basking in the sun and enjoying the great outdoors. When you want to, you can be quite fast and nimble. You're always the first pick for team sports.",
     img: {
-      smallImageUrl: "https://coach-courses-us.s3.amazonaws.com/public/courses/voice/Example%20images%20skill%203/Bufo_boreas.720.jpeg",
-      largeImageUrl: "https://coach-courses-us.s3.amazonaws.com/public/courses/voice/Example%20images%20skill%203/Bufo_boreas.1200.jpg"
+      smallImageUrl: "https://image.ibb.co/etGXjw/Hawksmall.png",
+      largeImageUrl: "https://image.ibb.co/di3ZxG/Hawklarge.png"
     }
   }
 };
