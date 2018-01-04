@@ -7,30 +7,30 @@ Data: Customize the data below as you please.
 ***********/
 
 const SKILL_NAME = "Personality Quiz";
-const HELP_MESSAGE_BEFORE_START = "Answer five questions, and I will tell you what animal you are. Are you ready to play?";
-const HELP_MESSAGE_AFTER_START = "Just respond with yes or no and I'll give you the result in the end.";
-const HELP_REPROMPT = "Your animal will be revealed after you answer all my yes or no questions.";
-const STOP_MESSAGE = "Your spirit animal will be waiting for you next time.";
-const CANCEL_MESSAGE = "Let's go back to the beginning.";
+const HELP_MESSAGE_BEFORE_START = "Find your spirit animal. Answer 5 yes or no questions and I'll tell you. Are you ready to play?";
+const HELP_MESSAGE_AFTER_START = "Respond yes or no and I'll give you the result at the end.";
+const HELP_REPROMPT = "I will reveal your spirit animal after you answer 5 questions.";
+const STOP_MESSAGE = "Try again another time.";
+const CANCEL_MESSAGE = "Let's start again.";
 const MISUNDERSTOOD_INSTRUCTIONS_ANSWER = "Please answer with either yes or no.";
 
-const WELCOME_MESSAGE = "Hi! I can tell you what animal you're most like. All you have to do is answer five questions with either yes or no. Are you ready to start?";
+const WELCOME_MESSAGE = "Hi! I can tell you your spirit animal. All you have to do is answer five simple yes or no questions. Are you ready to start?";
 const INITIAL_QUESTION_INTROS = [
   "Great! Let's start!",
-  "<say-as interpret-as='interjection'>Alrighty</say-as>! Here comes your first question!",
+  "Ok let's begin.
+  "<say-as interpret-as='interjection'>Alrighty</say-as>! Here comes the first question!",
   "Ok let's go. <say-as interpret-as='interjection'>Ahem</say-as>.",
-  "<say-as interpret-as='interjection'>well well</say-as>."
+  "<say-as interpret-as='interjection'>Let's go</say-as>."
 ];
 const QUESTION_INTROS = [
-  "Oh dear.",
+  "I see.",
   "Okey Dokey",
-  "You go, human!",
-  "Sure thing.",
+  "That's right!",
+  "Yup.",
   "I would have said that too.",
-  "Of course.",
+  "I'm getting the idea of it.",
   "I knew it.",
   "Totally agree.",
-  "So true.",
   "I agree."
 ];
 const UNDECISIVE_RESPONSES = [
