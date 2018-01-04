@@ -57,8 +57,8 @@ const animalList = {
   owl: {
     name: "an Owl",
     display_name: "Owl",
-    audio_message: "You are nearly invisible to the naked eye, but you aren't to be underestimated.",
-    description: "Dear old Aceria anthocoptes. Small but mighty, you love hanging around outdoors and have an unnatural affinity for thistles. Don't let anyone hold you back - while people don't notice you at first, you can have a big impact on the things around you.",
+    audio_message: "As an owl you can see beyond what is visible to the truth. You have a strong intuition and can access information and wisdom that’s usually hidden to most.",
+    description: "Owls have long since been a symbol of wisdom, but as your spirit animal it gives you strength to see the truth when it is hidden. Owls have great intuition and guide you to high awareness.",
     img: {
       smallImageUrl: "https://image.ibb.co/iZ8Orb/Owlsmall.png",
       largeImageUrl: "https://image.ibb.co/fKvQ4w/Owllarge.png"
@@ -67,8 +67,8 @@ const animalList = {
   wolf: {
     name: "a Wolf",
     display_name: "Wolf",
-    audio_message: "Macaws are smart and fabulous.",
-    description: "Your striking appearance is the talk of every party. You are always the most colorfully dressed one around. You're also one smart cookie - you were using tools to make your tasks easier before it was cool.",
+    audio_message: "You have sharp intelligence and strong instincts. You live your life byu instinct and value the ability to think freely.",
+    description: "As a wolf you have the ability to make quick and firm emotional attachments, and often need to trust your instincts to make decisions. Wolves teach us to trust our hearts and minds, and have control over our lives.",
     img: {
       smallImageUrl: "https://image.ibb.co/grVQMb/Wolfsmall.png",
       largeImageUrl: "https://image.ibb.co/dCg9Wb/Wolflarge.png"
