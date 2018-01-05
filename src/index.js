@@ -77,8 +77,8 @@ const animalList = {
   bear: {
     name: "a Bear",
     display_name: "Bear",
-    audio_message: "Baaa! You are a goat.",
-    description: "Goats are some of the most amazing animals on Earth. Constantly underestimated, they are nearly as impervious to other peoples' opinions as honey badgers. You are quite handy to have around, as you're always happy to take care of leftovers at any party.",
+    audio_message: "You are powerful and yet nurturing. You act with confidence but only after you've taken your time to develop your ideas.",
+    description: "You have are patient in developing your ideas and projects, waiting for just the right moment to share them. You have confidence in who you are and where you are going in life. You are strong but nurturing.",
     img: {
       smallImageUrl: "https://image.ibb.co/dvPJPw/Bearsmall.png",
       largeImageUrl: "https://image.ibb.co/guVgcG/Bearlarge.png"
@@ -87,8 +87,8 @@ const animalList = {
   hawk: {
     name: "a Hawk",
     display_name: "Hawk",
-    audio_message: "You dig relaxing and hanging around in the sunshine.",
-    description: "You are athletic and cool, the apple of everyone's eye. You really know how to take it easy and like to spend lots of time basking in the sun and enjoying the great outdoors. When you want to, you can be quite fast and nimble. You're always the first pick for team sports.",
+    audio_message: "Optimism is one of your strongest virtues. You are alwert and aware. A hawk is often ahead, waiting for others to catch up.",
+    description: "A hawk holds the key to a higher consciousness, you're thinking ahead and then bringing others to your enlightened state. You are aware and alert, seeing what others are unable to.",
     img: {
       smallImageUrl: "https://image.ibb.co/etGXjw/Hawksmall.png",
       largeImageUrl: "https://image.ibb.co/di3ZxG/Hawklarge.png"
