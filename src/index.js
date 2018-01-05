@@ -7,7 +7,7 @@ Data: Customize the data below as you please.
 ***********/
 
 const SKILL_NAME = "Personality Quiz";
-const HELP_MESSAGE_BEFORE_START = "Find your spirit animal. Answer 5 yes or no questions and I'll tell you. Are you ready to play?";
+const HELP_MESSAGE_BEFORE_START = "Find your spirit animal and see what it tells you about your personality. Answer 5 yes or no questions and I'll tell you. Are you ready to play?";
 const HELP_MESSAGE_AFTER_START = "Respond yes or no and I'll give you the result at the end.";
 const HELP_REPROMPT = "I will reveal your spirit animal after you answer 5 questions.";
 const STOP_MESSAGE = "Try again another time.";
@@ -98,53 +98,53 @@ const animalList = {
 
 const questions = [
   {
-    question: "Do you like spending time socializing with others?",
+    question: "Do you lead more than you follow?",
     points: {
-      Fox: ,
-      Owl: ,
-      Wolf: ,
-      Bear: ,
-      Hawk: 
+      Fox: 1,
+      Owl: 2,
+      Wolf: 4,
+      Bear: 3,
+      Hawk: 5 
     }
   },
   {
-    question: "Do you enjoy sunbathing?",
+    question: "Do you have children?",
     points: {
-      Fox: ,
-      Owl: ,
-      Wolf: ,
-      Bear: ,
-      Hawk: 
+      Fox: 4,
+      Owl: 2,
+      Wolf: 3,
+      Bear: 5,
+      Hawk: 1
     }
   },
   {
-    question: "Do you enjoy reading a good book more than going out to a party?",
+    question: "Do you like sushi?",
     points: {
-      Fox: ,
-      Owl: ,
-      Wolf: ,
-      Bear: ,
-      Hawk: 
+      Fox: 2,
+      Owl: 0,
+      Wolf: 4,
+      Bear: 5,
+      Hawk: 0
     }
   },
   {
-    question: "Do you like doing sports?",
+    question: "Do you prefer cold weather over hot weather?",
     points: {
-      Fox: ,
-      Owl: ,
-      Wolf: ,
-      Bear: ,
-      Hawk: 
+      Fox: 2,
+      Owl: 5,
+      Wolf: 5,
+      Bear: 1,
+      Hawk: 2
     }
   },
   {
-    question: "Do you prefer vacationing in the forest instead of on the beach?",
+    question: "Do you like to spend time outside?",
     points: {
-      Fox: ,
-      Owl: ,
-      Wolf: ,
-      Bear: ,
-      Hawk: 
+      Fox: 2,
+      Owl: 4,
+      Wolf: 3,
+      Bear: 0,
+      Hawk: 5
     }
   }
 ];
